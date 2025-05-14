@@ -24,6 +24,6 @@ namespace SingletonPattern
             {
                 return instance;
             }
-        }
+        }      
     }
 }

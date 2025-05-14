@@ -26,7 +26,6 @@ namespace SingletonPattern
                 Console.WriteLine("Different instances exist.");
             }
             Console.Read();
-
         }
     }
 }
