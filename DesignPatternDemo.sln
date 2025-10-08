@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePatternExample2", "Br
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPatternExample", "AdapterPatternExample\AdapterPatternExample.csproj", "{33122061-8518-46F7-87B4-E8E6C12678FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPaymentExample", "ProxyPaymentExample\ProxyPaymentExample.csproj", "{0305ED7C-7480-48CD-B823-55C0C346D417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPatternExample2", "ProxyPatternExample2\ProxyPatternExample2.csproj", "{F0F5CC2C-3278-46A7-B8F1-AC405FE525F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{33122061-8518-46F7-87B4-E8E6C12678FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33122061-8518-46F7-87B4-E8E6C12678FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33122061-8518-46F7-87B4-E8E6C12678FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0305ED7C-7480-48CD-B823-55C0C346D417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0305ED7C-7480-48CD-B823-55C0C346D417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0305ED7C-7480-48CD-B823-55C0C346D417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0305ED7C-7480-48CD-B823-55C0C346D417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0F5CC2C-3278-46A7-B8F1-AC405FE525F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0F5CC2C-3278-46A7-B8F1-AC405FE525F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0F5CC2C-3278-46A7-B8F1-AC405FE525F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0F5CC2C-3278-46A7-B8F1-AC405FE525F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

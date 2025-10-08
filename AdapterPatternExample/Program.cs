@@ -26,10 +26,13 @@ namespace AdapterPatternExample
         // Adapter - adapts Rectangle for Triangle area calculation
         public class TriangleAdapter : IShape
         {
-            private readonly Rectangle _rectangle;
+          private readonly Rectangle _rectangle;
             public TriangleAdapter(double baseLength, double height)
             {
-           _rectangle = new Rectangle { Width = baseLength, Height = height };
+                _rectangle = new Rectangle();
+                _rectangle.Height = height;
+                _rectangle.Width = baseLength;
+
             }
             // area of triangle = ½ * base * height
             public double GetArea() => _rectangle.GetArea() / 2; 
