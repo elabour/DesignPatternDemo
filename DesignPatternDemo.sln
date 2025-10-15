@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPatternExample", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPatternExample2", "DecoratorPatternExample2\DecoratorPatternExample2.csproj", "{DF1CA509-4952-4CD1-8895-7BD4997D0EAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePatternExample", "CompositePatternExample\CompositePatternExample.csproj", "{CA208E67-8C7F-455D-9D4F-739AD446BD3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePatternExample2", "CompositePatternExample2\CompositePatternExample2.csproj", "{98F9FC25-7C04-4ED3-8BFE-4F2D75CEA02C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{DF1CA509-4952-4CD1-8895-7BD4997D0EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF1CA509-4952-4CD1-8895-7BD4997D0EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF1CA509-4952-4CD1-8895-7BD4997D0EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA208E67-8C7F-455D-9D4F-739AD446BD3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA208E67-8C7F-455D-9D4F-739AD446BD3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA208E67-8C7F-455D-9D4F-739AD446BD3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA208E67-8C7F-455D-9D4F-739AD446BD3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F9FC25-7C04-4ED3-8BFE-4F2D75CEA02C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F9FC25-7C04-4ED3-8BFE-4F2D75CEA02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F9FC25-7C04-4ED3-8BFE-4F2D75CEA02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F9FC25-7C04-4ED3-8BFE-4F2D75CEA02C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
