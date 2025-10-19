@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePatternExample", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePatternExample2", "CompositePatternExample2\CompositePatternExample2.csproj", "{98F9FC25-7C04-4ED3-8BFE-4F2D75CEA02C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightPatternExample", "FlyweightPatternExample\FlyweightPatternExample.csproj", "{2C901DDC-1725-4036-82CC-1E243570997C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightPatternExample2", "FlyweightPatternExample2\FlyweightPatternExample2.csproj", "{31DBACC0-EAB5-4DE8-A7FC-C6C08ECE77A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{98F9FC25-7C04-4ED3-8BFE-4F2D75CEA02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98F9FC25-7C04-4ED3-8BFE-4F2D75CEA02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98F9FC25-7C04-4ED3-8BFE-4F2D75CEA02C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C901DDC-1725-4036-82CC-1E243570997C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C901DDC-1725-4036-82CC-1E243570997C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C901DDC-1725-4036-82CC-1E243570997C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C901DDC-1725-4036-82CC-1E243570997C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31DBACC0-EAB5-4DE8-A7FC-C6C08ECE77A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DBACC0-EAB5-4DE8-A7FC-C6C08ECE77A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DBACC0-EAB5-4DE8-A7FC-C6C08ECE77A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DBACC0-EAB5-4DE8-A7FC-C6C08ECE77A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
