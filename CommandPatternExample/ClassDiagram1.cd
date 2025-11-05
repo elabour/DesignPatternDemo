@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CommandPatternExample.Form1">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Interface Name="CommandPatternExample.Form1.ICommand" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Form1.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Interface>
+      <Class Name="CommandPatternExample.Form1.LabelReceiver" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Form1.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="CommandPatternExample.Form1.ChangeTextCommand" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Form1.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="CommandPatternExample.Form1.ChangeColorCommand" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Form1.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="CommandPatternExample.Form1.ButtonInvoker" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Form1.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAACABCAAABAEAACgAAACAAAAAABAAAQAAAAAABA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandPatternExample.Program">
+    <Position X="8.5" Y="0.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandPatternExample.Properties.Resources">
+    <Position X="6" Y="4" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandPatternExample.Properties.Settings">
+    <Position X="4.5" Y="1.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
