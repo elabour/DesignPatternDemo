@@ -17,21 +17,17 @@ namespace CommandPatternExample
         {
             void Execute();
         }
-
         public class LabelReceiver
         {
             private Label _label;
-
             public LabelReceiver(Label label)
             {
                 _label = label;
             }
-
             public void ChangeText(string text)
             {
                 _label.Text = text;
             }
-
             public void ChangeColor(Color color)
             {
                 _label.BackColor = color;
@@ -95,11 +91,6 @@ namespace CommandPatternExample
         {
             InitializeComponent();
             _labelReceiver = new LabelReceiver(label1);
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void BtnChangeText_Click(object sender, EventArgs e)
