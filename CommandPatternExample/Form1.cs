@@ -86,7 +86,11 @@ namespace CommandPatternExample
 
         private ButtonInvoker _invoker = new ButtonInvoker();
         private LabelReceiver _labelReceiver;
-
+        int buttonCount = 0;
+        int startX = 10, startY = 50;
+        int currentX = 10, currentY = 50;
+        int btnWidth = 200, btnHeight = 30;
+        int margin = 5;
         public Form1()
         {
             InitializeComponent();
@@ -106,5 +110,45 @@ namespace CommandPatternExample
             _invoker.SetCommand(colorCommand);
             _invoker.ExecuteCommand();
         }
+
+        private void BtnAdd_Click(object sender, EventArgs e)
+        {
+            buttonCount++;
+
+            Button newButton = new Button();
+            Random rnd = new Random();
+            newButton.Text = "Button " + buttonCount + " " + rnd.Next(1, 1000);
+            newButton.Size = new Size(btnWidth, btnHeight);
+
+            // Positioning buttons from top-left
+            newButton.Location = new Point(currentX, currentY);
+
+            // Move down for the next button
+            currentY += btnHeight + margin;
+
+            // If reaching bottom of form, move to next column
+            if (currentY + btnHeight > this.ClientSize.Height)
+            {
+                currentY = startY;                  // Reset to top
+                currentX += btnWidth + margin;      // Move to next column
+            }
+
+            // Attach the separate event method
+            newButton.Click += DynamicButton_Click;
+
+            this.Controls.Add(newButton);
+        }
+
+        //  event method for dynamic buttons
+        private void DynamicButton_Click(object sender, EventArgs e)
+        {
+            if (sender is Button btn)
+            {
+                Random rnd = new Random();
+                int randomNumber = rnd.Next(1, 1000);
+                MessageBox.Show($"You clicked: {btn.Text}");
+            }
+        }
+
     }
 }
